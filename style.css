@@ -3,7 +3,39 @@
     padding: 0;
 }
 body{
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr 1fr;
     width: 100vw;
-    height: 4200px;
+    height: 3600px;
     background-color: black;
+}
+
+#secao1{
+    background-image: url('/assets/fundo_netflix.jpg');
+    background-repeat: no-repeat;
+}
+#secao2{
+    background-color: black;
+    border-top: solid 3px gray;
+}
+#secao3{
+    background-color: black;
+    border-top: solid 3px gray;
+}
+#secao4{
+    background-color: black;
+    border-top: solid 3px gray;
+}
+#secao5{
+    background-color: black;
+    border-top: solid 3px gray;
+
+}
+#secao6{
+    background-color: black;
+    border-top: solid 3px gray;
+}
+#secao7{
+    background-color: black;
+    border-top: solid 3px gray;
 }
