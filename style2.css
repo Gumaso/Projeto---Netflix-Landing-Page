@@ -20,7 +20,6 @@ header{
     justify-content: space-between;
     padding: 20px;
     margin: 0px 50px;
-
 }
 header > h1{
     font-family: "Poppins", sans-serif;
@@ -95,7 +94,20 @@ section{
     border: none;
     background-color: #474a51;
 }
+#form_section > input::placeholder{
+    font-family: "Netflix Sans", sans-serif;
+    color: gray;
+    font-size: 1.2rem;
+}
+#form_section > input:focus{
+    outline: none;
+    border: 2px solid black;
+}
 #form_section > button{
+    font-family: "Netflix Sans", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 800;
     width: 314px;
     height: 50px;
     border-radius: 4px;
@@ -103,6 +115,24 @@ section{
     border: none;
     margin-top: 20px;
     background-color: #cf0e0e;
+    transition: all 0.3s ease-in-out;
+}
+#form_section > button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+
+
+
+/*DIV INFERIOR*/
+#div_section_inferior{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 50px 50px;
+    height: 344px;
+    width: 314px;
+    gap: 15px;
 }
 #div_logar_facebook{
     display: flex;
@@ -114,7 +144,6 @@ section{
     font-family: "Netflix Sans", sans-serif;
     color: gray;
     font-size: 0.8rem;
-    margin-left: 10px;
     font-weight: 500;
 
 }
@@ -126,6 +155,34 @@ section{
 #link_saiba_mais:hover{
     text-decoration: underline;
 }
+#link_cadastrar{
+    text-decoration: none;
+    font-family: "Netflix Sans", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+#link_cadastrar:hover{
+    text-decoration: underline;
+}
+#div_novo_netflix{
+    display: flex;
+    align-items: center;
+    
+}
+#div_novo_netflix >h2{
+    font-family: "Netflix Sans", sans-serif;
+    color: gray;
+    font-size: 1.2rem;
+    
+}
+#entrar_com_face{
+    font-family: "Netflix Sans", sans-serif;
+    color: gray;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
 footer{
     background-color: rgba(0, 0, 0, 0.822);
 }
@@ -135,6 +192,9 @@ footer{
     text-decoration: none;
     font-size: 1rem;
     color: gray;
+}
+.links_footer:hover{
+    text-decoration: underline;
 }
 #main_footer{
     display: flex;
