@@ -69,6 +69,18 @@ body{
     display: flex;
 
 }
+#nav_botao_secoes{
+    background-color: rgba(0, 0, 0, 0.804);
+    border: white 1.5px solid;
+    border-radius: 4px;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
 /*INICIO SECAO 1*/
 #secao1{
     background-image: url('/assets/fundo_netflix2.jpg');
@@ -86,18 +98,7 @@ header{
     align-items: center;
 
 }
-#nav_botao1_secao1{
-    background-color: rgba(0, 0, 0, 0.804);
-    border: white 1.5px solid;
-    border-radius: 4px;
-    padding: 5px;
-    width: 120px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    justify-content: center;
-}
+
 #nav_botao2_secao1{
     background-color: #cf0e0e;
     border-radius: 4px;
@@ -112,14 +113,13 @@ header{
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
     font-size: 1rem;
-
     color: white;
 }
 #logo_secao1{
     font-family: "Poppins", sans-serif;
     color:  #cf0e0e;
     margin: 10px;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 3rem;
     
 }
@@ -293,7 +293,6 @@ header{
 #div_inferior_secao7{
     display: flex;
     flex-direction: column;
-
     gap: 15px;
 }
 #div_inferior_secao7 > p{
