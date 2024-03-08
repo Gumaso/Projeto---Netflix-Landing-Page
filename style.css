@@ -29,6 +29,40 @@ body{
     font-weight: 600;
 
 }
+#div_form_secoes{
+    display: flex;
+}
+#botao_registrar_secoes{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    background-color:  #cf0e0e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+#email_secoes{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 400px;
+}
+#email_secoes:focus{
+    outline-color: gray;
+}
+#form_secoes{
+    display: flex;
+
+}
 /*INICIO SECAO 1*/
 #secao1{
     background-image: url('/assets/fundo_netflix2.jpg');
@@ -84,7 +118,7 @@ header{
     
 }
 
-#texto_menor_secao1{
+#texto_menor{
     font-family: "Ubuntu", sans-serif;
     color: white;
     font-size: 0.8em;
@@ -106,37 +140,7 @@ header{
     font-size: 3em;
     margin: 10px;
 }
-#botao_registrar_secao1{
-    font-family: "Poppins", sans-serif;
-    color: white;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    border: none;
-    background-color:  #cf0e0e;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-#email_secao1{
-    font-family: "Poppins", sans-serif;
-    color: black;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    border: none;
-    background-color: white;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    width: 400px;
-}
-#email_secao1:focus{
-    outline-color: gray;
-}
-#form_secao1{
-    display: flex;
 
-}
 /*FIM SECAO 1*/
 #secao2{
     background-color: black;
@@ -171,13 +175,68 @@ header{
     gap:180px;
 
 }
+/*INICIO SECAO 6*/
 #secao6{
     background-color: black;
     border-top: solid 3px gray;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap:180px;
+    gap: 40px;
 }
+#secao6 > h2{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+#main_secao6{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#paragrafo_secao6{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+.botoes_secao6{
+    background-color: #5d5a56;
+    width: 815px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botoes_secao6 > p{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    
+}
+.botoes_secao6 > img{
+    margin-right: 20px;
+}
+.divs_secao6 > p{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    display: none;
+}
+#form_secao6{
+    display: flex;
+}
+#div_inferior_secao6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*FIM SECAO 6*/
+/*INICIO SECAO 7*/
 #secao7{
     background-color: black;
     border-top: solid 3px gray;
@@ -186,18 +245,10 @@ header{
     gap:180px;
 }
 
-
-
-.textos_divs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 80%;
+.links_secao7{
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    color: gray;
 }
-
-.imgs_divs{
-    display: flex;
-    height: 80%;
-}
+/*FIM SECAO 7*/
