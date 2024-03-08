@@ -44,7 +44,13 @@ body{
     cursor: pointer;
     display: flex;
     align-items: center;
+    transition: all 0.5s ease-in-out;
 }
+#botao_registrar_secoes:hover{
+    transform: scale(1.005);
+    cursor: pointer;
+}
+
 #email_secoes{
     font-family: "Poppins", sans-serif;
     color: black;
@@ -209,6 +215,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+.botoes_secao6:hover{
+    transform: scale(1.005);
+    cursor: pointer;
+    background-color: #cf0e0e;
 }
 .botoes_secao6 > p{
     font-family: "Ubuntu", sans-serif;
@@ -250,5 +263,43 @@ header{
     text-decoration: none;
     font-size: 1rem;
     color: gray;
+}
+#main_secao7{
+    display: flex;
+    margin: 10% 20%;
+
+}
+#div_subprincipal_main_secao7{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+#div_subprincipal_main_secao7 > p{
+    font-family: "Ubuntu", sans-serif;
+    color: gray;
+    font-size: 1.2rem;
+
+}
+.div_links_secao7{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#div_divs_secao7{
+    display: flex;
+    gap: 120px;
+}
+#div_inferior_secao7{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+#div_inferior_secao7 > p{
+    font-family: "Ubuntu", sans-serif;
+    color: gray;
+    font-size: 1.2rem;
+
 }
 /*FIM SECAO 7*/
