@@ -204,6 +204,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 4px;
+    align-items: center;
 }
 
 #paragrafo_secao6{
@@ -242,8 +243,13 @@ header{
     color: white;
     font-size: 1.2rem;
     margin-left: 20px;
-    display: none;
 }
+.divs_secao6{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+
 #form_secao6{
     display: flex;
 }
