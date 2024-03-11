@@ -12,9 +12,7 @@ body{
     width: auto;
     display: grid;
     grid-template-rows: 1fr 6fr 2fr;
-    background-image: url('assets/fundo_netflix2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;}
+    }
 header{
     display: flex;
     justify-content: space-between;
