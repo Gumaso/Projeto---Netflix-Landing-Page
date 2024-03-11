@@ -86,10 +86,7 @@ body{
     justify-content: center;
 }
 /*INICIO SECAO 1*/
-#secao1{
-    background-image: url('./assets/fundo_netflix2.jpg');
-    background-repeat: no-repeat;
-}
+
 header{
     display: flex;
     justify-content: space-between;
