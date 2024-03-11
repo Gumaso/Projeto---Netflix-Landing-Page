@@ -5,13 +5,6 @@ var botao4 = document.getElementById('botao4_secao6');
 var botao5 = document.getElementById('botao5_secao6');
 var botao6 = document.getElementById('botao6_secao6');
 
-
-
-/*
-display: flex;
-    flex-direction: column;
-    width: 50%;
-*/
 function mostrarDiv(div) {
     if (div.style.display === "flex") {
         div.style.display = "none";
