@@ -1,3 +1,4 @@
+
 var botao1 = document.getElementById('botao1_secao6');
 var botao2 = document.getElementById('botao2_secao6');
 var botao3 = document.getElementById('botao3_secao6');
@@ -15,10 +16,9 @@ function mostrarDiv(div) {
     }
 
 }
-var div_1 = document.getElementById('div_botao1').addEventListener('click', function(event) {
+var div_1 = document.getElementById('div_botao1');
+botao1.addEventListener('click', function(event) {
     event.preventDefault();
-});
-botao1.addEventListener('click', function() {
     mostrarDiv(div_1);
 });
 

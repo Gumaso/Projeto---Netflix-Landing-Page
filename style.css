@@ -93,7 +93,9 @@ body{
     justify-content: center;
 }
 /*INICIO SECAO 1*/
-
+#secao1{
+    height: 679px;
+}
 header{
     display: flex;
     justify-content: space-between;
