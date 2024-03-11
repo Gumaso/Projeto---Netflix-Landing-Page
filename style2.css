@@ -69,12 +69,6 @@ section{
     color: white;
     font-size: 1rem;
 }
-.links{
-    text-decoration: none;
-}
-.links:hover{
-    text-decoration: underline;
-}
 #div_checkbox{
     display: flex;
     flex-direction: row-reverse;
@@ -194,6 +188,7 @@ footer{
     color: gray;
 }
 .links_footer:hover{
+    color: white;
     text-decoration: underline;
 }
 #main_footer{

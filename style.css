@@ -273,6 +273,10 @@ header{
     font-size: 1rem;
     color: gray;
 }
+.links_secao7:hover{
+    color: white;
+    text-decoration: underline;
+}
 #main_secao7{
     display: flex;
     margin: 10% 20%;
