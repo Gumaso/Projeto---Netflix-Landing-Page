@@ -3,6 +3,13 @@
     font-family: "Netflix Sans"; 
     src: url("/netflix-sans-font/NetflixSans-Regular.otf"), format("opentype");
 }
+:root{
+    --cor-primaria: #cf0e0e;
+    --cor-secundaria: #5d5a56;
+    --cor-terciaria: white;
+    --cor-quaternaria: black;
+    --cor-quintenaria: gray;
+}
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +19,13 @@ body{
     grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr 1fr;
     width: 100vw;
     height: 3600px;
-    background-color: black;
+    background-color: var(--cor-quaternaria);
     box-sizing: border-box;
     overflow-x: hidden;
 }
 .h2s_descricoes{
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 2em;
     margin: 10px;
     width: 416px;
@@ -26,7 +33,7 @@ body{
 }
 .ps_descricoes{
     font-family: "Netflix Sans", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 1.2em;
     margin: 10px;
     width: 416px;
@@ -38,11 +45,11 @@ body{
 }
 #botao_registrar_secoes{
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 1.2em;
     padding: 10px 20px;
     border: none;
-    background-color:  #cf0e0e;
+    background-color:  var(--cor-primaria);
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
     cursor: pointer;
@@ -57,17 +64,17 @@ body{
 
 #email_secoes{
     font-family: "Poppins", sans-serif;
-    color: black;
+    color: var(--cor-quaternaria);
     font-size: 1.2em;
     padding: 10px 20px;
     border: none;
-    background-color: white;
+    background-color: var(--cor-terciaria);
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
     width: 400px;
 }
 #email_secoes:focus{
-    outline-color: gray;
+    outline-color: var(--cor-quintenaria);
 }
 #form_secoes{
     display: flex;
@@ -75,7 +82,7 @@ body{
 }
 #nav_botao_secoes{
     background-color: rgba(0, 0, 0, 0.804);
-    border: white 1.5px solid;
+    border: var(--cor-terciaria) 1.5px solid;
     border-radius: 4px;
     padding: 5px;
     width: 120px;
@@ -101,7 +108,7 @@ header{
 }
 
 #nav_botao2_secao1{
-    background-color: #cf0e0e;
+    background-color: var(--cor-primaria);
     border-radius: 4px;
     border: none;
     padding: 5px;
@@ -114,11 +121,11 @@ header{
     font-family: "Netflix Sans", sans-serif;
     text-decoration: none;
     font-size: 1rem;
-    color: white;
+    color: var(--cor-terciaria);
 }
 #logo_secao1{
     font-family: "Poppins", sans-serif;
-    color:  #cf0e0e;
+    color:  var(--cor-primaria);
     margin: 10px;
     font-weight: 800;
     font-size: 3rem;
@@ -127,7 +134,7 @@ header{
 
 #texto_menor{
     font-family: "Netflix Sans", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 0.8em;
     margin: 10px;
     font-weight: 600;
@@ -143,39 +150,39 @@ header{
 
 #titulo_secao1{
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 3em;
     margin: 10px;
 }
 
 /*FIM SECAO 1*/
 #secao2{
-    background-color: black;
-    border-top: solid 3px gray;
+    background-color: var(--cor-quaternaria);
+    border-top: solid 3px var(--cor-quintenaria);
     display: flex;
     align-items: center;
     justify-content: center;
     gap:180px;
 }
 #secao3{
-    background-color: black;
-    border-top: solid 3px gray;
+    background-color: var(--cor-quaternaria);
+    border-top: solid 3px var(--cor-quintenaria);
     display: flex;
     align-items: center;
     justify-content: center;
     gap:180px;
 }
 #secao4{
-    background-color: black;
-    border-top: solid 3px gray;
+    background-color: var(--cor-quaternaria);
+    border-top: solid 3px var(--cor-quintenaria);
     display: flex;
     align-items: center;
     justify-content: center;
     gap:180px;
 }
 #secao5{
-    background-color: black;
-    border-top: solid 3px gray;
+    background-color: var(--cor-quaternaria);
+    border-top: solid 3px var(--cor-quintenaria);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,8 +191,8 @@ header{
 }
 /*INICIO SECAO 6*/
 #secao6{
-    background-color: black;
-    border-top: solid 3px gray;
+    background-color: var(--cor-quaternaria);
+    border-top: solid 3px var(--cor-quintenaria);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,7 +200,7 @@ header{
 }
 #secao6 > h2{
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 2.5rem;
     margin: 10px;
 }
@@ -206,12 +213,12 @@ header{
 
 #paragrafo_secao6{
     font-family: "Netflix Sans", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 1.2rem;
     margin: 5px;
 }
 .botoes_secao6{
-    background-color: #5d5a56;
+    background-color: var(--cor-secundaria);
     width: 815px;
     height: 60px;
     display: flex;
@@ -223,11 +230,11 @@ header{
 .botoes_secao6:hover{
     transform: scale(1.005);
     cursor: pointer;
-    background-color: #cf0e0e;
+    background-color: var(--cor-primaria);
 }
 .botoes_secao6 > p{
     font-family: "Netflix Sans", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 1.5rem;
     margin-left: 20px;
     
@@ -237,7 +244,7 @@ header{
 }
 .divs_secao6 > p{
     font-family: "Netflix Sans", sans-serif;
-    color: white;
+    color: var(--cor-terciaria);
     font-size: 1.2rem;
     margin-left: 20px;
 }
@@ -257,8 +264,8 @@ header{
 /*FIM SECAO 6*/
 /*INICIO SECAO 7*/
 #secao7{
-    background-color: black;
-    border-top: solid 3px gray;
+    background-color: var(--cor-quaternaria);
+    border-top: solid 3px var(--cor-quintenaria);
     align-items: center;
     justify-content: center;
     gap:180px;
@@ -268,10 +275,10 @@ header{
     font-family: "Netflix Sans", sans-serif;
     text-decoration: none;
     font-size: 1rem;
-    color: gray;
+    color: var(--cor-quintenaria);
 }
 .links_secao7:hover{
-    color: white;
+    color: var(--cor-terciaria);
     text-decoration: underline;
 }
 #main_secao7{
@@ -287,7 +294,7 @@ header{
 }
 #div_subprincipal_main_secao7 > p{
     font-family: "Netflix Sans", sans-serif;
-    color: gray;
+    color: var(--cor-quintenaria);
     font-size: 1.2rem;
 
 }
@@ -307,7 +314,7 @@ header{
 }
 #div_inferior_secao7 > p{
     font-family: "Netflix Sans", sans-serif;
-    color: gray;
+    color: var(--cor-quintenaria);
     font-size: 1.2rem;
 
 }
