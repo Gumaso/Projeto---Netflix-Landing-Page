@@ -5,13 +5,6 @@ var botao4 = document.getElementById('botao4_secao6');
 var botao5 = document.getElementById('botao5_secao6');
 var botao6 = document.getElementById('botao6_secao6');
 
-
-
-/*
-display: flex;
-    flex-direction: column;
-    width: 50%;
-*/
 function mostrarDiv(div) {
     if (div.style.display === "flex") {
         div.style.display = "none";
@@ -22,9 +15,10 @@ function mostrarDiv(div) {
     }
 
 }
-var div_1 = document.getElementById('div_botao1');
-botao1.addEventListener('click', function(event) {
+var div_1 = document.getElementById('div_botao1').addEventListener('click', function(event) {
     event.preventDefault();
+});
+botao1.addEventListener('click', function() {
     mostrarDiv(div_1);
 });
 
