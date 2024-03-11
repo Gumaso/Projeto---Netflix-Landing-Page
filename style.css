@@ -36,10 +36,11 @@ body{
     color: var(--cor-terciaria);
     font-size: 1.2em;
     margin: 10px;
-    width: 416px;
+    width: 616px;
     font-weight: 600;
 
 }
+
 #div_form_secoes{
     display: flex;
 }
@@ -95,6 +96,13 @@ body{
 /*INICIO SECAO 1*/
 #secao1{
     height: 679px;
+}
+#p_1{
+    font-family: "Netflix Sans", sans-serif;
+    color: var(--cor-terciaria);
+    font-size: 1.2em;
+    margin: 10px;
+    font-weight: 600;
 }
 header{
     display: flex;
